@@ -1,0 +1,22 @@
+.deadpool-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 8px 12px 8px;
+  border: rgba(219, 65, 0, 0.5) 1px solid;
+  background-color: #191919;
+  box-shadow: inset 0 0 30px 3px rgba(100, 0, 0, 0.8);
+
+  &__target-name {
+    align-self: center;
+  }
+
+  &__backer-names {
+    display: flex;
+    flex-direction: column;
+
+    .backer-name {
+    }
+  }
+}
