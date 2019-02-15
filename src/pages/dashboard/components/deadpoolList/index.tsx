@@ -1,19 +1,23 @@
 import React from 'react';
 import './index.scss';
-import { tDeadpoolListItem } from "../../../../types/deadpoolList.types";
-import { DeadpoolListItem } from "../deadpoolListItem";
+import { tDeadpool, tDeadpoolList } from '../../../../types/deadpool.types';
+import { AppCard } from '../../../../core/card';
 
-interface iDeadpoolListProps {
-    deadpoolList?: tDeadpoolListItem[];
+interface iDeadpoolList {
+    pools?: tDeadpoolList;
 }
 
-export const DeadpoolList = (_props: iDeadpoolListProps) => {
+export const DeadpoolList = (_props: iDeadpoolList) => {
+    const {pools} = _props.pools;
+
     return (
         <div className='deadpool-list'>
-            <div className='deadpool-list__header'>This is the header</div>
-            {_props.deadpoolList ? _props.deadpoolList.map((_value: tDeadpoolListItem, _index) => {
-                return <DeadpoolListItem key={_index} itemProps={_value}/>
-            }) : null}
+            <div className='deadpool-list__header'>The list begins!!</div>
+            {pools ? pools.map((_pool: tDeadpool, _index) => {
+                return <AppCard key={_index}>
+                    {_pool.marks.length}
+                </AppCard>;
+            }) : <div className='deadpool-list__join-msg'>You've joined no pools. Scrub!!</div>}
         </div>
     );
 };

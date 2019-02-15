@@ -1,3 +1,12 @@
 .dashboard {
-  padding-top: 8px;
+  display: flex;
+  height: 100%;
+
+  &__deadpool-list {
+    height: 100%;
+  }
+
+  &__active-deadpool {
+    width: 100%;
+  }
 }
