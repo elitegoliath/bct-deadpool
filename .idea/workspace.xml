@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="426cdb7c-5aaf-48e1-8c36-d0cbb1dff4c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/card/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/card/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/components/deadpool/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/components/deadpool/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolListItem/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolMark/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolListItem/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolMark/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dashboard/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dashboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/deadpoolList.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/deadpool.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/deadpool.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/deadpool.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/user.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/user.types.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/dashboard/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="22">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -32,40 +27,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/types/deadpool.types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/dashboard/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/types/currency.types.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/types/user.types.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +77,6 @@
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/core/card/index.tsx" />
-        <option value="$PROJECT_DIR$/src/types/user.types.ts" />
         <option value="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolListItem/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolListItem/index.scss" />
         <option value="$PROJECT_DIR$/src/types/deadpoolList.types.ts" />
@@ -99,9 +87,11 @@
         <option value="$PROJECT_DIR$/src/core/card/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/dashboard/index.scss" />
-        <option value="$PROJECT_DIR$/src/types/deadpool.types.ts" />
-        <option value="$PROJECT_DIR$/src/pages/dashboard/index.tsx" />
         <option value="$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.tsx" />
+        <option value="$PROJECT_DIR$/src/types/user.types.ts" />
+        <option value="$PROJECT_DIR$/src/types/currency.types.ts" />
+        <option value="$PROJECT_DIR$/src/pages/dashboard/index.tsx" />
+        <option value="$PROJECT_DIR$/src/types/deadpool.types.ts" />
       </list>
     </option>
   </component>
@@ -111,7 +101,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="3" />
-    <option name="width" value="1940" />
+    <option name="width" value="1935" />
     <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -122,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,19 +123,6 @@
               <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
               <item name="bct-deadpool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bct-deadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bct-deadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
@@ -182,21 +158,13 @@
               <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
               <item name="bct-deadpool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="deadpoolMark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bct-deadpool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bct-deadpool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,18 +206,19 @@
       <workItem from="1550019261132" duration="5816000" />
       <workItem from="1550104037264" duration="1203000" />
       <workItem from="1550105256423" duration="7815000" />
-      <workItem from="1550190443433" duration="4547000" />
+      <workItem from="1550190443433" duration="4777000" />
+      <workItem from="1550622963173" duration="967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25127000" />
+    <option name="totallyTimeSpent" value="26324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="3" width="1940" height="1036" extended-state="0" />
+    <frame x="-10" y="3" width="1935" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26489362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26826668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -353,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/types/user.types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpool/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -411,10 +373,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -425,29 +397,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/types/deadpool.types.ts">
+    <entry file="file://$PROJECT_DIR$/src/types/user.types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="160">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/dashboard/components/deadpoolList/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/types/currency.types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/dashboard/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/dashboard/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/types/deadpool.types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

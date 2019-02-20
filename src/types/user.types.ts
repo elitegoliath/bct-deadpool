@@ -1,3 +1,9 @@
+import { tDeadpoolList } from './deadpool.types';
+import { tNug } from './currency.types';
+
 export type tUser = {
-    name: string;
+    id: string;
+    username: string;
+    myPools: tDeadpoolList;
+    myNugs: tNug[];
 }

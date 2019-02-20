@@ -10,11 +10,10 @@ export const Dashboard = () => {
             {
                 name: 'Queen of England',
                 backers: [
-                    {name: 'Bacon Eater'},
-                    {name: 'Idiot Fucker'},
-                    {name: 'Lord Emo'},
+                    {username: 'Bacon Eater'},
+                    {username: 'Idiot Fucker'},
+                    {username: 'Lord Emo'},
                 ],
-                odds: 6,
             },
         ],
     };
