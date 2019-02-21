@@ -1,5 +1,4 @@
 import { tUser } from './user.types';
-import { tNug } from './currency.types';
 
 export type tDeadpoolMark = {
     name: string;
@@ -11,9 +10,11 @@ export type tDeadpool = {
     id: string;
     title: string;
     marks: tDeadpoolMark[];
-    prizePot: tNug[];
+    prizePot: number;
     isValid: boolean;
     isPrivate: boolean;
+    isOpen: boolean;
+    closureDate?: string;
 }
 
 export type tDeadpoolList = {

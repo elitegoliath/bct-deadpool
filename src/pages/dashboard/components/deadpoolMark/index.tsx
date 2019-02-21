@@ -11,7 +11,6 @@ export const DeadpoolMark = (_props: iDeadpoolMarkProps) => {
     const {
         name,
         backers,
-        odds,
     } = _props.mark;
 
     return (
@@ -19,7 +18,7 @@ export const DeadpoolMark = (_props: iDeadpoolMarkProps) => {
             <div className='deadpool-mark__target-name'>{name}</div>
             <div className='deadpool-mark__backer-names'>
                 {backers.map((_value: tUser, _index) => {
-                    return <div className='backer-name' key={_index}>{_value.name}</div>
+                    return <div className='backer-name' key={_index}>{_value.username}</div>
                 })}
             </div>
 
